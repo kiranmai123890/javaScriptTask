@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Dashboard</title>
+  <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+  <div class="container" id="authContainer">
+    <h2 id="formTitle">Login</h2>
+    <div id="message"></div>
+
+    <form id="authForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit" id="submitBtn">Login</button>
+    </form>
+
+    <p><span id="toggleForm">Don't have an account? Signup</span></p>
+  </div>
+
+  <div class="container" id="dashboard">
+    <h3>Welcome, <span id="userDisplay"></span>!</h3>
+
+    <div class="cards">
+      <div class="card">
+        <img src="image/1.jpg" alt="Pizza" />
+        <div class="card-content">
+          <h4>Pizza</h4>
+          <p>Hot & Fresh</p>
+          <div class="card-footer">
+            <span class="price">$5</span>
+            <div class="buttons">
+              <button class="buy">Buy</button>
+              <button class="add">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/1.jpg" alt="Burger" />
+        <div class="card-content">
+          <h4>Burger</h4>
+          <p>Juicy & Cheesy</p>
+          <div class="card-footer">
+            <span class="price">$4</span>
+            <div class="buttons">
+              <button class="buy">Buy</button>
+              <button class="add">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/2.jpg" alt="Fries" />
+        <div class="card-content">
+          <h4>Fries</h4>
+          <p>Crispy & Golden</p>
+          <div class="card-footer">
+            <span class="price">$3</span>
+            <div class="buttons">
+              <button class="buy">Buy</button>
+              <button class="add">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/1.jpg" alt="Sandwich" />
+        <div class="card-content">
+          <h4>Sandwich</h4>
+          <p>Grilled Delight</p>
+          <div class="card-footer">
+            <span class="price">$4</span>
+            <div class="buttons">
+              <button class="buy">Buy</button>
+              <button class="add">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/2.jpg" alt="Salad" />
+        <div class="card-content">
+          <h4>Salad</h4>
+          <p>Healthy Bowl</p>
+          <div class="card-footer">
+            <span class="price">$6</span>
+            <div class="buttons">
+              <button class="buy">Buy</button>
+              <button class="add">Add</button>
+            </div>
+          </div>
+        </div>
+
+
+
+    
+        
+    </div>
+
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <script src="dash.js">
+   
+  </script>
+</body>
+</html>
